@@ -1,25 +1,27 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-14 11:52:47
- * @LastEditTime: 2022-04-14 14:30:12
+ * @LastEditTime: 2022-04-14 15:39:36
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \Projects\toutiao-m\src\App.vue
 -->
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
     <h1>黑马头条</h1>
+    <div>
+      <i class="toutiao toutiao-dianzan2"></i>
+    </div>
+    
   </div>
 </template>
 
 <script>
-export default{
-  name:'App'
+export default {
+  name: 'App'
 }
 </script>
 
 <style lang="less">
-
-
 </style>
